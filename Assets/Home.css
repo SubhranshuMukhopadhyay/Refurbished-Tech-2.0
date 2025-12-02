@@ -1,0 +1,524 @@
+*{
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+ }
+body{
+     background-color: #fffafa;
+     padding: 0.1vmin;
+     border-radius: 1rem;
+     height: auto;
+     width: auto;
+     position: absolute;
+     text-align: center;
+     justify-content: center;
+    }
+header{
+        background-color: #000066;
+        border-color: #000066;
+        border-radius: 1rem;
+        margin-left: 0.5vmin;
+        margin-right: 0.5vmin;
+        margin-bottom: 0.5vmin;
+        padding-top: 0.5vmin;
+        padding-bottom: 0.5vmin;
+        padding-left: 0.5vmin;
+        padding-right: 0.5vmin;
+        width: clamp(93rem, 113vw, 93rem);
+        display: flex;
+        align-items: center;
+        position: absolute;
+       }
+.homebuttonspan{
+                float: left;
+                margin-left: 1rem;
+               }
+.homebutton{
+            background-color: #87cefa;
+            color: #ff0000;
+            font-size: 100%;
+            font-style: normal;
+            padding: 1vmin;
+            border-radius: 1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+.homebutton:hover{
+                  background-color: #ff0000;
+                  color: #87cefa;
+                  cursor: pointer;
+                 }
+.email{
+       margin-left: 2rem;
+       color: #fffafa;
+       font-size: small;
+       font-weight: bold;
+       font-style: normal;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+.mycartbuttonspan{
+                  margin-left: 4rem;
+                 }
+.trackbuttons{
+              border-radius: 1rem;
+              background-color: #87cefa;
+              color: #ff0000;
+              font-weight: bold;
+              cursor: pointer;
+              width: 6rem;
+              height: 2rem;
+             }
+.trackbuttons:hover{
+                    background-color: #ff0000;
+                    color: #87cefa;
+                    cursor: pointer
+                   }
+.heading{
+         color: #ff0000;
+         font-size: 3rem;
+         font-weight: bolder;
+         font-style: italic;
+         text-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+         margin-left: 4rem;
+        }
+.myordersbuttonspan{
+                    margin-left: 4rem;
+                   }
+.contact{
+         margin-left: 3rem;
+         color: #fffafa;
+         font-size: small;
+         font-weight: bold;
+         font-style: normal;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+.modebuttonspan{
+                  margin-left: 5rem;
+               }
+.darkmodebutton{
+                background-color: #87cefa;
+                color: #ff0000;
+                font-size: 100%;
+                font-style: normal;
+                padding: 1vmin;
+                border-radius: 1rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               }
+.darkmodebutton:hover{
+                      background-color: #ff0000;
+                      color: #87cefa;
+                      cursor: pointer;
+                     }
+.lightmodebutton{
+                 background-color: #87cefa;
+                 color: #ff0000;
+                 font-size: 100%;
+                 font-style: normal;
+                 padding: 1vmin;
+                 border-radius: 1rem;
+                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+.lightmodebutton:hover{
+                       background-color: #ff0000;
+                       color: #87cefa;
+                       cursor: pointer;
+                      }
+.logoutbuttonspan{
+                  float: right;
+                  margin-left: 1rem;
+                 }
+.logoutbutton{
+              background-color: #87cefa;
+              color: #ff0000;
+              font-size: 100%;
+              font-style: normal;
+              padding: 1vmin;
+              border-radius: 1rem;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             }
+.logoutbutton:hover{
+                    background-color: #ff0000;
+                    color: #87cefa;
+                    cursor: pointer;
+                   }
+main{
+     margin-left: 0.5vmin;
+     margin-bottom: 0.5vmin;
+     margin-right: 0.5vmin;
+     margin-top: 4rem;
+     display: flex;
+     position: absolute;
+    }
+.desktoppanel{
+              background-color: #fffafa;
+              border-color: #ff0000;
+              border-width: thick;
+              border-radius: 1rem;
+              float: left;
+              width: clamp(8rem, 5vw, 8rem);
+              height: clamp(34.2rem, 80vh, 34.2rem);
+              text-align: center;
+              overflow-y: auto;
+             }
+.refurbisheddesktopspan{
+                         float: left;
+                         border-radius: 1rem;
+                         border-color: #ff0000;
+                         font-weight: bolder;
+                         padding-top: 1vmin;
+                         padding-bottom: 1vmin;
+                         background-color: #ff0000;
+                         font-style: italic;
+                         font-size: large;
+                         color: #fffafa;
+                         text-decoration: none;
+                         box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                         width: 14rem;
+                        }
+.desktopbuttons{
+                background-color: #fffafa;
+                border-color: #ff0000;
+                color: #ff0000;
+                font-size: 1rem;
+                font-weight: bold;
+                font-style: italic;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 13rem;
+                height: 10rem;
+                border-radius: 2rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                margin-bottom: 1vmin;
+                border-width: thin;
+               }
+.desktops{
+          height: 6.5rem;
+          width: 8rem;
+         }
+.desktopbuttons:hover{
+                      cursor: pointer;
+                      opacity: 0.5;
+                     }
+.mycartcontainer{
+                 background-color: #fffafa;
+                 box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                 border-radius: 1rem;
+                 padding: 1rem;
+                 text-align: center;
+                 width: clamp(60rem, 74vw, 60rem);
+                 height: clamp(34rem, 79vh,34rem);
+                 overflow-y: auto;
+                }
+h1{
+   text-align: center;
+   color: #87cefa;
+   font-style: italic;
+   font-size: 3rem;
+   font-weight: bolder;
+   text-decoration: underline;
+  }
+.desktopitembutton{
+            background-color: #fffafa;
+            border-color: #fffafa;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+            border-radius: 1rem;
+            border-color: #ff0000;
+            padding: 1rem;
+            width: 56rem;
+            height: 10rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bolder;
+            color: #ff0000;
+           }
+.laptopitembutton{
+            background-color: #fffafa;
+            border-color: #fffafa;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+            border-radius: 1rem;
+            border-color: #5c5c9b;
+            padding: 1rem;
+            width: 56rem;
+            height: 10rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bolder;
+            color: #5c5c9b;
+           }
+.itemimage{
+           float: left;
+           height: 8rem;
+           width: 10rem;
+          }
+.myorderscontainer{
+                   background-color: #fffafa;
+                   box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                   border-radius: 1rem;
+                   padding: 1rem;
+                   text-align: center;
+                   width: clamp(60rem, 74vw, 60rem);
+                   height: clamp(34rem, 79vh,34rem);
+                   overflow-y: auto;
+                  }
+.arrivingsoon{
+              color: #ff0000;
+              font-style: italic;
+              font-weight: bold;
+              font-size: 1.3rem;
+             }
+.defaultcontainer{
+                  background-color: #fffafa;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                  border-radius: 1rem;
+                  padding: 1rem;
+                  text-align: center;
+                  color: gray;
+                  font-size: 2rem;
+                  font-weight: bolder;
+                  font-style: italic;
+                  width: clamp(60rem, 74vw, 60rem);
+                  height: clamp(34rem, 79vh,34rem);
+                 }
+.desktopcontainer{
+                  background-color: #fffafa;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                  border-radius: 1rem;
+                  border-color: #ff0000;
+                  border-width: thick;
+                  padding-top: 1vmin;
+                  padding-bottom: 1vmin;
+                  padding-left: 1rem;
+                  padding-right: 1rem;
+                  text-align: center;
+                  font-size: 1.5rem;
+                  color: #ff0000;
+                  font-weight: bold;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                  width: clamp(60rem, 74vw, 60rem);
+                  height: clamp(34rem, 79vh,34rem);
+                 }
+.desktopconatinername{
+                      height: 5rem;
+                      width: 50rem;
+                      border: none;
+                      text-align: center;
+                      font-size: 2.5rem;
+                      font-weight: bolder;
+                      font-style: italic;
+                      font-family: 'Courier New', Courier, monospace;
+                      color: #ff0000;
+                     }
+.itemdetail{
+            display: flex;
+           }
+.imageinput{
+            float: left;
+            height: 20rem;
+            width: 25rem;
+            border: none;
+           }
+.desktopdetails{
+                 float: right;
+                 margin-left: 4rem;
+                 margin-top: 1rem;
+                }
+.pricediv{
+          margin-top: 1rem;
+          font-size: 3rem;
+}
+.desktopaddtolistbuttons{
+                         float: right;
+                         margin-right: 3rem;
+                         height: 3rem;
+                         width: 8rem;
+                         border-radius: 3rem;
+                         background-color: #ff0000;
+                         border-color: #ff0000;
+                         color: #fffafa;
+                         font-size: medium;
+                         font-weight: bolder;
+                        }
+.desktopaddtolistbuttons:hover{
+                               opacity: 0.5;
+                               cursor: pointer;
+                              }
+.laptopcontainer{
+                 background-color: #fffafa;
+                 box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                 border-radius: 1rem;
+                 border-color: #000066;
+                 border-width: thick;
+                 padding-top: 1vmin;
+                 padding-bottom: 1vmin;
+                 padding-left: 1rem;
+                 padding-right: 1rem;
+                 text-align: center;
+                 font-size: 1.5rem;
+                 color: #5c5c9b;
+                 font-weight: bold;
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                 width: clamp(60rem, 74vw, 60rem);
+                 height: clamp(34rem, 79vh,34rem);
+                }
+.defaultposition{
+                 margin-left: 70rem;
+                 display: none;
+                 transition: all 0.3s;
+                }
+.onscreenposition{
+                  margin-left: none;
+                  transition: all 0.3s;
+                 }
+.laptopconatinername{
+                     height: 5rem;
+                     width: 50rem;
+                     border: none;
+                     text-align: center;
+                     font-size: 2.5rem;
+                     font-weight: bolder;
+                     font-style: italic;
+                     font-family: 'Courier New', Courier, monospace;
+                     color: #5c5c9b;
+                    }
+.laptopdetails{
+               float: right;
+               margin-left: 4rem;
+               margin-top: 1rem;
+              }
+.buttondiv{
+           float: right;
+           margin-right: 3rem;
+          }                  
+.desktopordernowbuttons{
+                        height: 3rem;
+                        width: 8rem;
+                        border-radius: 3rem;
+                        background-color: #ff0000;
+                        border-color: #ff0000;
+                        color: #fffafa;
+                        font-size: medium;
+                        font-weight: bolder;
+}
+.desktopordernowbuttons:hover{
+                              opacity: 0.5;
+                              cursor: pointer;
+                             }
+.desktopaddtocartbuttons{
+                         height: 3rem;
+                         width: 8rem;
+                         border-radius: 3rem;
+                         background-color: #ff0000;
+                         border-color: #ff0000;
+                         color: #fffafa;
+                         font-size: medium;
+                         font-weight: bolder;
+                        }
+.desktopaddtocartbuttons:hover{
+                               opacity: 0.5;
+                               cursor: pointer;
+                              }
+.laptopordernowbuttons{
+                       height: 3rem;
+                        width: 8rem;
+                        border-radius: 3rem;
+                        background-color: #5c5c9b;
+                        border-color: #5c5c9b;
+                        color: #fffafa;
+                        font-size: medium;
+                        font-weight: bolder;
+}
+.laptopordernowbuttons:hover{
+                             opacity: 0.5;
+                             cursor: pointer;
+                            }
+.laptopaddtocartbuttons{
+                         height: 3rem;
+                         width: 8rem;
+                         border-radius: 3rem;
+                         background-color: #5c5c9b;
+                         border-color: #5c5c9b;
+                         color: #fffafa;
+                         font-size: medium;
+                         font-weight: bolder;
+                        }
+.laptopaddtocartbuttons:hover{
+                              opacity: 0.5;
+                              cursor: pointer;
+                             }
+.hide{
+      display: none;
+     }
+.laptoppanel{
+             background-color: #fffafa;
+             border-color: #5c5c9b;
+             border-width: thick;
+             border-radius: 1rem;
+             float: right;
+             width: clamp(8rem, 5vw, 8rem);
+             height: clamp(34.2rem, 80vh, 34.2rem);
+             text-align: center;
+             overflow-y: auto;
+            }
+.refurbishedlaptopspan{
+                         float: right;
+                         border-radius: 1rem;
+                         border-color: #5c5c9b;
+                         background-color: #5c5c9b;
+                         font-weight: bolder;
+                         padding-top: 1vmin;
+                         padding-bottom: 1vmin;
+                         color: #fffafa;
+                         font-style: italic;
+                         font-size: large;
+                         text-decoration: none;
+                         box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                         width: 14rem;
+                        }
+.laptopbuttons{
+               background-color: #fffafa;
+               border-color: #5c5c9b;
+               color: #5c5c9b;
+               font-size: 1rem;
+               font-weight: bold;
+               font-style: italic;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               width: 13rem;
+               height: 10rem;
+               border-radius: 2rem;
+               box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+               margin-bottom: 1vmin;
+               border-width: thin;
+              }
+.laptops{
+         height: 7rem;
+         width: 8rem;
+        }
+.laptopbuttons:hover{
+                       cursor: pointer;
+                       opacity: 0.5;
+                      }
+footer{
+       background-color: #000066;
+       color: #ff0000;
+       font-style: italic;
+       font-weight: bold;
+       font-size: 3rem;
+       text-align: center;
+       border-color: #000066;
+       border-radius: 1rem;
+       margin-left: 0.5vmin;
+       margin-top: 38.2rem;
+       margin-right: 0.5vmin;
+       padding-top: 0.5vmin;
+       padding-bottom: 0.5vmin;
+       padding-left: 0.5vmin;
+       padding-right: 0.5vmin;
+       position: absolute;
+       width: clamp(93rem, 113vw, 93rem); 
+      }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log In</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+        <link rel="stylesheet" href="Assets/Log In.css">
+    </head>
+    <body>
+        <main>
+            <div class="imagecontainer containers"><img src="Resource Images\Home.jpg"></div>
+            <form method="get" action="">
+                <div class="createaccountcontainer containers hide">
+                    <div>
+                        <span class="firstname">First Name</span>
+                        <span class="middlename">Middle Name</span>
+                        <span class="lastname">Last Name</span>
+                    </div>
+                    <div class="nameinputdiv">
+                        <span class="fninputspan"><input class="nameinput fninput" type="text" placeholder="First Name"></span>
+                        <span class="mninputspan"><input class="nameinput" type="text" placeholder="Middle Name"></span>
+                        <span class="lninputspan"><input  class="nameinput lninput" type="text" placeholder="Last Name"></span>
+                    </div>
+                    <div>
+                        <span class="email">E-Mail Id</span>
+                        <span class="contact">Contact No.</span>
+                    </div>
+                    <div class="emailphoneinputdiv">
+                        <span class="emailinputspan"><input class="emailphoneinputs emailinput" type="text"></span>
+                        <span class="contactinputspan"><input class="emailphoneinputs contactinput" type="number"></span>
+                    </div>
+                    <div class="iddiv">
+                        <span class="lebel">Choose Log In Id</span>
+                        <span class="spanselect">
+                            <select>
+                                <option value=""></option>
+                                <option value="email">E-Mail Id</option>
+                                <option value="contact">Contact No.</option>
+                            </select>
+                        </span>
+                    </div>
+                    <div class="passworddiv">
+                        <span class="password">Password</span>
+                        <span class="reenterpassword">Re-Enter Password</span>
+                    </div>
+                    <div class="passwordinputdiv">
+                        <span class="passwordinputspan"><input class="passwordinput passwordinput1" type="password"></span>
+                        <span class="reenterpasswordinputspan"><input class="passwordinput passwordinput2" type="password"></span>
+                    </div>
+                    <div>
+                        <button class="createaccountcontainerbutton">Create Account & Go to Log In Section</button>
+                    </div>
+                </div>
+            </form>
+            <div class="logincontainer containers hide">
+                <div>Log In ID</div>
+                <div><input class="loginconatinerinputs idinput" type="text"></div>
+                <div>Password</div>
+                <div><input class="loginconatinerinputs passwordinput" type="text" placeholder="Abcd@1234"></div>
+                <div><button class="websiteloginbutton">Log In</button></div>
+            </div>
+            <div class="forgotpasswordcontainer containers hide">
+                    <div>Enter Log In Id</div>
+                    <div><input class="fpinputs fpidinpput" type="text"></div>
+                    <div>Enter New Password</div>
+                    <div><input class="fpinputs fppasswordinput1" type="password"></div>
+                    <div>Re-Enter New Password</div>
+                    <div><input class="fpinputs fppasswordinput2" type="password"></div>
+                <div><button class="forgotpasswordcontainerbutton">Save New Password & Go To Log In Section</button></div>
+            </div>
+        </main>
+        <footer>
+            <div class="optioncontainer">
+                <span class="createaccountspan"><button class="createaccountbutton"><i class="fa-solid fa-user-check"> Create Account </i></button></span>
+                <span class="loginspan"><button class="loginbutton"><i class="fa-solid fa-key"> Log In </i></button></span>
+                <span class="forgotpasswordspan"><button class="forgotpasswordbutton"><i class="fa-solid fa-screwdriver"> Forgot Password </i></button></span>
+            </div>
+        </footer>
+    </body>
+    <script src="Assets/Log In.js"></script>
+</html>
